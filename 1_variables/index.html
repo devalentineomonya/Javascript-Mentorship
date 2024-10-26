@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Variables and File Linking</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 20px;
+      background-color: #f4f4f9;
+      color: #333;
+    }
+    h1 {
+      color: #2c3e50;
+    }
+    p {
+      margin-bottom: 1em;
+    }
+    .code {
+      background: #eef;
+      padding: 5px;
+      font-family: monospace;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Understanding JavaScript Variables</h1>
+  <p>Variables in JavaScript are containers for storing data values. Variables can hold different types of data, such as numbers, strings, and objects.</p>
+
+  <h2>Linking JavaScript Files to HTML</h2>
+  <p>There are two primary ways to link JavaScript files to an HTML file:</p>
+  <ul>
+    <li><strong>In the head:</strong> Link the JavaScript file inside the <code>&lt;head&gt;</code> section. This runs the script before the content loads.</li>
+    <code class="code">&lt;script src="variables.js"&gt;&lt;/script&gt;</code>
+    <li><strong>Before the closing body tag:</strong> Placing the script link before <code>&lt;/body&gt;</code> ensures the HTML content loads first.</li>
+    <code class="code">&lt;script src="exercise.js"&gt;&lt;/script&gt;</code>
+  </ul>
+
+  <p>Below are links to our example scripts:</p>
+  <p><code class="code">&lt;script src="variables.js"&gt;&lt;/script&gt;</code> explains JavaScript variables and demonstrates their use.</p>
+  <p><code class="code">&lt;script src="exercise.js"&gt;&lt;/script&gt;</code> contains exercises for practicing variables and basic arithmetic concepts.</p>
+
+  <!-- Link to JavaScript files -->
+  <script src="variables.js"></script>
+  <script src="exercise.js"></script>
+</body>
+</html>
